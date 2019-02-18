@@ -97,6 +97,6 @@ if (true) {
     console.log(y); //should be 5 but its return 10
 
 }
-console.log(`out side of scope ${y}`);
+console.log(`out side of scope ${y}`); // out side the scope.
 
 
