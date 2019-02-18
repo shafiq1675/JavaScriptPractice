@@ -80,4 +80,23 @@ if (true) {
 
 }
 
+console.log('==============let and var==============');
+
+//
+
+if (true) {
+    let x = 5;
+    var y = 5;
+    if (true) {
+        let x = 10;
+        var y = 10;
+        console.log(x); //should be 10
+        console.log(y); //should be 10
+    }
+    console.log(x); //should be 5
+    console.log(y); //should be 5 but its return 10
+
+}
+console.log(`out side of scope ${y}`);
+
 
