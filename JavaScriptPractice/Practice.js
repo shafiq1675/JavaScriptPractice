@@ -61,5 +61,23 @@ let myToDo = {
 myToDo.addMeeting(myToDo, 5);
 myToDo.meetDone(myToDo, 4);
 
-console.log(`${myToDo.summeryCal(myToDo)} meeting left.`)
+console.log(`${myToDo.summeryCal(myToDo)} meeting left.`);
+
+console.log('===================Math==============================');
+
+if (true) {
+
+    let firstNumber = 22;
+    let secondNumber = 7;
+    let result = firstNumber / secondNumber;
+
+    console.log(result);
+    console.log(`toFixed of ${result} is ${result.toFixed(2)}`);
+    console.log(`Math.floor of ${result} is ${Math.floor(result)}`);
+    console.log(`Math.ceil of  ${result} is ${Math.ceil(result)}`);
+    console.log(`Math.abs of ${result} is ${ Math.abs(-5)}`);
+
+
+}
+
 
